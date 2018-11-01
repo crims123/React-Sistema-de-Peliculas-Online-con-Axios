@@ -1,0 +1,134 @@
+$colorfondogris:rgba(38, 38, 38, 0.83);
+$colorTitulos:#569CEE;
+$colorParrafos:#AAAAAA;
+$colorBotones:#58A5FF;
+
+
+.menu-izquierdo{
+  float: left;
+  display: inline-block;
+  margin-right: 2.35765%;
+  width: 14%;
+  height: 100%;
+  background-color:$colorfondogris;
+  height: 100vh;
+  overflow: auto;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  &__select {
+    background-color: black;
+    color:white;
+    margin-bottom: 20px;
+  }
+  &__img{
+    max-width: 60%;
+    ;
+
+      &:hover{
+        border:solid 1px aqua;
+        transform:scale(1.1);
+      }
+  }
+}
+
+.menu-derecho{ 
+ 
+  &__cajaVideo{
+    text-align: center;
+    margin-bottom:2%;
+    margin-top: 0%;
+    height: 200%;
+    background-color: black;
+      &-trailer{
+         width: 40%;
+         height:50vh;
+      }
+
+  }
+  &__cajaDetalles{
+      float: left;
+      width: 80%;
+      background-color:$colorfondogris;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-top: 20px;
+      &-titulo{
+        color:$colorTitulos;
+        font-size: 25px;
+
+      }
+
+      &-cajaPeliculaSimilares{
+      float: left;
+      display: block;
+      width: 100%;
+      min-height:50px;  
+      }
+
+       &-botonA{
+      float: right;
+      margin-right: 20px;
+      color: white;
+      font-size: 0.9285rem;
+      padding: 0.3571em 3.2142em;
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      background-position: 20px 7px;
+      border-radius: 6px;
+      background-color: $colorBotones;
+      border:none;
+      cursor: pointer;  
+      }
+
+      &-botonB{
+       float: right;
+      margin-right: 20px;
+      color: white;
+      font-size: 0.9285rem;
+      padding: 0.3571em 3.2142em;
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      background-position: 20px 7px;
+      border-radius: 6px;
+      background-color: $colorBotones;
+      border:none;
+      cursor: pointer;
+      background-color: red;  
+      }
+
+
+
+      &-tituloPelicula{
+        color:white;
+        font-size: 15px;   
+      } 
+
+       &-texto{
+      vertical-align: center;
+      } 
+
+      &-fecha{
+        color:$colorParrafos;
+        float: left;
+      }  
+
+      &-parrafo{
+        color:$colorParrafos;
+      }
+
+      &-imagenes{
+    margin: 10px 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    float: left;
+
+      }
+
+  }
+}
+
+  
+
+
